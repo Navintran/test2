@@ -6,3 +6,12 @@ AFGE
 43
 NNVD
 SJFL
+// Sample cart functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartDiv = document.getElementById('cart-items');
+    
+    cart.forEach(item => {
+        cartDiv.innerHTML += `<p>${item.name} - $${item.price}</p>`;
+    });
+});
