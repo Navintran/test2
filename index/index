@@ -7,3 +7,15 @@ NNN\navintran
 NECNE
 
 CACNCD
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout | FreshMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Secure Checkout</h1>
+    <div id="cart-items"></div>
+    <script src="js/checkout.js"></script>
+</body>
+</html>
